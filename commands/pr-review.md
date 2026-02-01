@@ -1,3 +1,9 @@
+---
+description: Conduct a comprehensive code review of a GitHub pull request
+allowed-tools: Bash(gh:*, git:*, scripts/get-env:*), Read, Write, Glob, Grep
+argument-hint: <pr-number>
+---
+
 BASE_DIR=!`scripts/get-env ISSUES_DIR`
 
 ## Setup
@@ -21,6 +27,13 @@ Before diving into the code, verify:
 	* For bug fixes: understand the root cause being addressed
 
 ## Code Review Checklist
+
+### Scope & Relevance
+
+* Identify changes irrelevant to the PR
+	* Are there unrelated formatting changes, refactorings, or fixes?
+	* Should these be split into separate PRs for clarity?
+	* Do irrelevant changes obscure the actual changes being reviewed?
 
 ### Code Quality & Design
 
