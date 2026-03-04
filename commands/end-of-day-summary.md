@@ -25,6 +25,8 @@ A list of the key conversations (including a link to the conversation).
 A list of the action items generated.
 ```
 
+Use my slack activity to identify who I collaborated with and what I want to thank them for.
+
 # Summarize overall activity
 Summarize my overall activity on {TODAY}?
 Write the response to `{BASE_DIR}/{YEAR}/{MONTH}/{DAY}.overall.md`.
@@ -51,6 +53,10 @@ A summary of what I should let others be aware of.
 # Need to Discuss
 
 A summary of what I need to discuss with others.
+
+# Thanks
+
+A summary of what I want to thank others for, organized by person.
 
 # Next Steps
 
@@ -90,6 +96,14 @@ A summary of what I will do today.
 # Blockers/Waiting for
 
 A summary of what I am blocked by or waiting for.
+
+# For Your Information
+
+A summary of what I should let others be aware of.
+
+# Thanks
+
+A summary of what I want to thank others for, organized by person.
 ```
 
 Each section should be at most 5 bullet points.
