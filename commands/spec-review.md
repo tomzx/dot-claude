@@ -1,0 +1,4 @@
+- Identify ambiguities
+- Identify inconsistencies
+- Identify incoherences
+- Identify missing information
